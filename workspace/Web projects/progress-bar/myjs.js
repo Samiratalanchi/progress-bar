@@ -9,7 +9,7 @@ function displayWidthPercent() {
     } else {
         widthValue = 0;
     }
-    text = widthValue + "%" ;
+    text =  widthValue + "%" ;
     document.getElementById("progress-bar-animation").style.width= text;
     document.getElementById("content").innerHTML=text;
 }
